@@ -1,3 +1,69 @@
+.first-color {
+  background: #f9ecec;
+}
+
+.second-color {
+  background: #f0d9da;
+}
+
+.third-color {
+  background: #c8d9eb;
+}
+
+.fourth-color {
+  background: #ecf2f9;
+}
+
+body {
+  background-color: #c8d9eb;
+}
+
+.weather-app-wrapper {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 10px;
+  max-width: 70%;
+  color: black;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  color: black;
+}
+
 h1 {
-  color: blueviolet;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+  margin: 10px auto;
+  color: black;
+}
+
+hr {
+  color: #a6d0e4;
+}
+
+ul {
+  list-style: none;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+small {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.temp-today {
+  font-size: 30px;
+}
+.github-link {
+  color: #a6d0e4;
 }

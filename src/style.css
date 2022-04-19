@@ -1,32 +1,18 @@
 .first-color {
   background: #f9ecec;
 }
-
 .second-color {
   background: #f0d9da;
 }
-
 .third-color {
   background: #c8d9eb;
 }
-
 .fourth-color {
   background: #ecf2f9;
 }
 
 body {
   background-color: #c8d9eb;
-}
-
-.weather-app-wrapper {
-  font-family: "Poppins", sans-serif;
-  background-color: #fff;
-  border: solid 1px #fff;
-  border-radius: 20px;
-  margin: 40px auto;
-  padding: 10px;
-  max-width: 70%;
-  color: black;
 }
 
 h4 {
@@ -53,6 +39,7 @@ ul {
   font-size: 16px;
   margin: 0;
   padding: 0 10px;
+  color: gray;
 }
 
 small {
@@ -61,8 +48,41 @@ small {
   margin: 0 auto;
 }
 
+img {
+  margin-top: 0;
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+  position: relative;
+  bottom: 10px;
+}
+
+.weather-app-wrapper {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 10px;
+  max-width: 70%;
+  color: black;
+}
+.weather-today {
+  display: block;
+  margin-left: 40px;
+}
+
 .temp-today {
-  font-size: 30px;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 10px auto;
+  color: black;
+  display: inline-block;
+  padding: 5px 0px 0px 5px;
+  position: relative;
+  top: 10px;
 }
 .github-link {
   color: #a6d0e4;

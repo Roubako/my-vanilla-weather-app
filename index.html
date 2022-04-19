@@ -20,6 +20,7 @@
       src="https://kit.fontawesome.com/4e47630ced.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Your Weather Guide</title>
   </head>
@@ -30,10 +31,10 @@
         <hr />
         <div class="row">
           <div class="col-6">
-            <h1>New York</h1>
+            <h1 id="city">New York</h1>
             <ul>
-              <li>Monday 10:00</li>
-              <li>Mostly Cloudy</li>
+              <li id="date">Monday 10:00</li>
+              <li id="description">Mostly Cloudy</li>
             </ul>
           </div>
           <div class="col-6">
@@ -41,12 +42,14 @@
               <img
                 src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png"
                 alt="Mostly Cloudy"
+                id="weather-icon"
               />
-              <span class="temp-today">10</span>℃ | ℉
-
+              <span class="temp-today" id="temperature">10</span>℃ | ℉
               <ul>
-                <li class="weather-conditions">Humidity: 42%</li>
-                <li>Wind: 6.65 km/hr</li>
+                <li class="weather-conditions">
+                  Humidity: <span id="humidity">42</span>%
+                </li>
+                <li>Wind: <span id="wind">6.65</span> km/hr</li>
               </ul>
             </div>
           </div>

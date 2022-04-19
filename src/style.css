@@ -42,6 +42,10 @@ ul {
   color: gray;
 }
 
+li:first-letter {
+  text-transform: capitalize;
+}
+
 small {
   text-align: center;
   display: block;

@@ -133,6 +133,11 @@ img {
   margin: 0 10px 0 0;
 }
 
+.illustration {
+  width: 100%;
+  display: block;
+  margin: 30px auto;
+}
 .github-link {
   color: #a6d0e4;
 }

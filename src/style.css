@@ -116,6 +116,22 @@ img {
   text-decoration: none;
 }
 
+.weather-forecast {
+  display: block;
+  margin: 0 auto;
+}
+
+.card {
+  border: solid 2px #f0d9da;
+  border-radius: 8px;
+  text-align: center;
+  color: #a6d0e4;
+}
+
+.weather-forecast-temperature-max {
+  margin: 0 10px 0 0;
+}
+
 .github-link {
   color: #a6d0e4;
 }

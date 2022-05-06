@@ -122,7 +122,7 @@ img {
 }
 
 .card {
-  border: solid 2px #f0d9da;
+  border: solid 2px #c19898;
   border-radius: 8px;
   text-align: center;
   color: #a6d0e4;
@@ -133,11 +133,6 @@ img {
   margin: 0 10px 0 0;
 }
 
-.illustration {
-  width: 100%;
-  display: block;
-  margin: 30px auto;
-}
 .github-link {
   color: #a6d0e4;
 }
